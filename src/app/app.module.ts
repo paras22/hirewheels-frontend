@@ -7,10 +7,16 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SignInComponent } from './shared/sign-in/sign-in.component';
+import { SignUpComponent } from './shared/sign-up/sign-up.component';
+import { SignInModalComponent } from './shared/sign-in-modal/sign-in-modal.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SignInComponent,
+    SignUpComponent,
+    SignInModalComponent
   ],
   imports: [
     BrowserModule,
