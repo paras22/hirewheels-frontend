@@ -1,0 +1,152 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+
+
+
+
+
+/* ========  Comman Style  =========== */
+body{
+    min-height: 100vh;
+}
+
+.containerX{
+    width: calc(100% - 30px);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.pt-4r{
+    padding-top: 4rem;
+}
+/* ========  --------------  =========== */
+
+
+
+
+
+
+
+
+
+
+/* ===============  SignIn Module --- .... Sign In .... Sign Up Style =================== */
+
+.w-80{
+    width: 80% !important;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 0.15rem;
+    border-top-right-radius: 0.15rem;
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border: none;
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #495057;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.2);
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent !important;
+}
+
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: transparent !important;
+}
+
+
+/* ========================= ---------------------------------------- ======================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ========  Booking Module  =========== */
+
+/* ========  --------------  =========== */
+
+
+
+
+
+
+
+/* ========  Core Module  =========== */
+.nb-bg-blue{
+    background-color: #1565c0;
+    color: #1565c0;
+}
+
+.ul-0{
+    padding: 0;
+}
+
+
+/* ========  --------------  =========== */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========  Home Module  =========== */
+.right-10{
+    right: 10px;
+}
+.top-0{
+    top: 0;
+}
+.top-6{
+    top: 6px;
+}
+.f-size-25{
+    font-size: 25px;
+}
+.h-100vh{
+    min-height: 100vh;
+}
+
+/* ========  --------------  =========== */
+
+
+
+
+
+
+
+
+
+/* ========  Shared Module  =========== */
+/* ========  --------------  =========== */
+
+
+/* ========  User Module  =========== */
+/* ========  --------------  =========== */
