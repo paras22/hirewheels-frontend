@@ -1,11 +1,9 @@
-#signupcard{
-    margin:auto;
-    width:50%;
-    
-    
-    
+#inner {
+    margin: auto;
+    width: 50%;
 }
-.btn{
+
+.btn {
     margin-left: 27%;
-    width:40%
+    width: 40%
 }

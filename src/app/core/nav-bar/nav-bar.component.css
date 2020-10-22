@@ -1,0 +1,18 @@
+nav,button{
+    background-color: #1565c0;
+}
+fa-icon,span{
+    color:white;
+}
+a{
+    padding-left: 5px;
+    color:white;
+}
+button{
+    color:white;
+}
+nav{
+    position:fixed;
+    top:0;
+    width:100%;
+}

@@ -1,51 +1,58 @@
-#signin{
-  
-   width:50%;
-}
-#signup{
-    width:50%;
-    background:darkgrey;
+#signin {
+    width: 50%;
 }
 
-#signinbtn{
-    float: right;
-    color:white;
+#signup {
+    width: 50%;
+    background: darkgrey;
 }
-label{
+
+#signinbtn {
+    float: right;
+    color: white;
+}
+
+label {
     padding-left: 5%;
 }
-#forgotpass{
+
+#password {
     text-decoration: none;
 }
-#btnsignin{
-    margin-left:30%;
-    width:50%;
-}
-#signincard{
-    width:100%;
 
+#Sign-in-button {
+    margin-left: 30%;
+    width: 50%;
 }
-#signbtn{
+
+#Sign-in-card1 {
+    width: 100%;
+}
+
+#signbtn {
     padding-left: 2%;
     text-decoration: none;
 }
-p{
-    text-align:center;
+
+p {
+    text-align: center;
 }
 
-
-#resetPasswordCard{
+#resetPasswordCard {
     width: 100%;
 }
-input{
-    width:100%;
+
+input {
+    width: 100%;
     margin-left: 5%;
 }
-#btnsignup{
+
+#btnsignup {
     margin-left: 31%;
-    width:40%;
+    width: 40%;
 }
-#btnreset{
+
+#btnreset {
     margin-left: 31%;
-    width:60%;
+    width: 60%;
 }
