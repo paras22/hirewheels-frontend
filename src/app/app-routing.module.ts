@@ -1,10 +1,11 @@
 import { SignInComponent } from './shared/sign-in/sign-in.component';
+import { SigninModalComponent } from './shared/signin-modal/signin-modal.component';
+import { AdminDashboardComponent } from './user/admin-dashboard/admin-dashboard.component';
 import { BookVehicleComponent } from './booking/book-vehicle/book-vehicle.component';
 import { HomeComponent } from './home/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SigninModalComponent } from './shared/signin-modal/signin-modal.component';
-import { AdminDashboardComponent } from './user/admin-dashboard/admin-dashboard.component';
+import { AddVehicleComponent } from './user/add-vehicle/add-vehicle.component';
 
 const routes: Routes = [
   {
@@ -20,16 +21,20 @@ const routes: Routes = [
       {
         path:'**',
         pathMatch:'full',
-        component:HomeComponent,
+        component:HomeComponent, 
       }
     ]
   },
   {
     path:'add-vehicle',
     pathMatch:'full',
-    component:BookVehicleComponent
+    component:AddVehicleComponent
   },
-
+  {
+    path:'admin-dashboard',
+    pathMatch:'full',
+    component:AdminDashboardComponent
+  },
   {
     path:'signin',
     pathMatch:'full',
@@ -44,12 +49,6 @@ const routes: Routes = [
     path:'**',
     pathMatch:'full',
     component:HomeComponent
-  }
-
-  {
-    path : 'admin-dashboard',
-    pathMatch:'full',
-    component:AdminDashboardComponent
   }
 ];
 
