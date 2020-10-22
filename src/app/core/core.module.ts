@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { CoreRoutingModule } from './core-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -10,8 +11,9 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [NavBarComponent, FooterComponent],
   imports: [
     CommonModule,
+    SharedModule,
     CoreRoutingModule
-
+    
   ],
   exports:[
     NavBarComponent,

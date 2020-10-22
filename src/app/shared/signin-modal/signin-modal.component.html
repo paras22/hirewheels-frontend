@@ -1,0 +1,46 @@
+
+<div class="modal fade bd-example-modal-lg" data-focus="false" data-mouseleave = "false" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        <div class="modal-body">
+            <nav>
+                <div class="nav nav-tabs w-100" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active w-50 text-center text-dark" id="nav-signin-tab" data-toggle="tab" href="#nav-sign-in" role="tab" aria-controls="nav-home" aria-selected="true">
+                    <i class="fas fa-sign-in-alt"></i> 
+                    Sign In
+                    </a>
+                  <a class="nav-item nav-link  w-50 text-center text-dark" id="nav-signup-tab" data-toggle="tab" href="#nav-sign-up" role="tab" aria-controls="nav-profile" aria-selected="false">
+                    <i class="fas fa-user-plus"></i>  
+                    Sign-up
+                    </a>
+                </div>
+              </nav>
+
+
+
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-sign-in" role="tabpanel" aria-labelledby="nav-signin-tab">
+                    <div class="w-80 mx-auto mt-3">
+                        <app-sign-in></app-sign-in>
+                    </div>
+                </div>
+
+
+                <div class="tab-pane fade show" id="nav-sign-up" role="tabpanel" aria-labelledby="nav-signup-tab">
+                    <div class="w-80 mx-auto mt-3">
+                        <app-signup></app-signup>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+

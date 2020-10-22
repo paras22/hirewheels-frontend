@@ -1,3 +1,4 @@
+import { SigninModalComponent } from './../shared/signin-modal/signin-modal.component';
 import { HomeComponent } from './../home/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
